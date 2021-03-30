@@ -25,7 +25,7 @@ module NetSuite
         :sales_group, :sales_readiness, :salutation, :send_email, :ship_complete,
         :stage, :start_date, :sync_partner_teams, :tax_exempt, :taxable,
         :third_party_acct, :third_party_country, :third_party_zipcode, :title, :url,
-        :vat_reg_number, :visits, :web_lead
+        :vat_reg_number, :visits, :web_lead, :overdue_balance
 
       field :addressbook_list,  CustomerAddressbookList
       field :credit_cards_list, CustomerCreditCardsList
